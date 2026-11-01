@@ -3,35 +3,203 @@
     "id": "movies",
     "shortLabel": "Movies",
     "title": "Movies & Cinema",
-    "text": "Films that left a deep mark on me — reflecting on themes of theoretical physics, cosmic exploration, time, and human tenacity.",
+    "text": "Films that have stayed with me.",
     "entries": [
       {
-        "title": "Interstellar",
-        "subtitle": "Christopher Nolan (2014)",
-        "image": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=400&auto=format&fit=crop&q=80",
-        "thought": "The visualization of gravitational time dilation near Gargantua and Kip Thorne's real general relativity calculations made physics feel profoundly emotional. The docking sequence scored by Hans Zimmer's pipe organ remains an unmatched pinnacle of tension and human grit.",
-        "link": "https://www.imdb.com/title/tt0816692/"
+        "title": "Three Colors: Blue",
+        "subtitle": "Krzysztof Kieślowski (1993)",
+        "image": "assets/posters/three-colors-blue.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0108160/"
+      },
+      {
+        "title": "Three Colors: White",
+        "subtitle": "Krzysztof Kieślowski (1994)",
+        "image": "assets/posters/three-colors-white.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0111507/"
+      },
+      {
+        "title": "Three Colors: Red",
+        "subtitle": "Krzysztof Kieślowski (1994)",
+        "image": "assets/posters/three-colors-red.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0111495/"
+      },
+      {
+        "title": "The Double Life of Véronique",
+        "subtitle": "Krzysztof Kieślowski (1991)",
+        "image": "assets/posters/double-life-veronique.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0101765/"
+      },
+      {
+        "title": "Dekalog",
+        "subtitle": "Krzysztof Kieślowski (1988)",
+        "image": "assets/posters/dekalog.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0092337/"
+      },
+      {
+        "title": "A Short Film About Killing",
+        "subtitle": "Krzysztof Kieślowski (1988)",
+        "image": "assets/posters/short-film-killing.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0096463/"
+      },
+      {
+        "title": "A Short Film About Love",
+        "subtitle": "Krzysztof Kieślowski (1988)",
+        "image": "assets/posters/short-film-love.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0096461/"
+      },
+      {
+        "title": "Camera Buff",
+        "subtitle": "Krzysztof Kieślowski (1979)",
+        "image": "assets/posters/camera-buff.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0079109/"
       },
       {
         "title": "Oppenheimer",
         "subtitle": "Christopher Nolan (2023)",
-        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&auto=format&fit=crop&q=80",
-        "thought": "A visceral portrait of theoretical physics, quantum uncertainty, and the catastrophic ethical weight of scientific breakthrough. The sound design during the Trinity test silence gave me literal chills in the theater.",
+        "image": "assets/posters/oppenheimer.jpg",
+        "thought": "",
         "link": "https://www.imdb.com/title/tt15398776/"
       },
       {
-        "title": "Blade Runner 2049",
-        "subtitle": "Denis Villeneuve (2017)",
-        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400&auto=format&fit=crop&q=80",
-        "thought": "Roger Deakins' cinematography and the desolate brutalist architecture created an unforgettable atmosphere. A quiet, contemplative study on consciousness, artificial intelligence, and what makes human emotion authentic.",
-        "link": "https://www.imdb.com/title/tt1856101/"
+        "title": "Batman Begins",
+        "subtitle": "Christopher Nolan (2005)",
+        "image": "assets/posters/batman-begins.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0372784/"
       },
       {
-        "title": "Arrival",
-        "subtitle": "Denis Villeneuve (2016)",
-        "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&auto=format&fit=crop&q=80",
-        "thought": "Fascinating exploration of the Sapir-Whorf hypothesis and nonlinear time perception. The idea that learning a language can rewire your temporal consciousness was deeply thought-provoking.",
-        "link": "https://www.imdb.com/title/tt2543164/"
+        "title": "The Dark Knight",
+        "subtitle": "Christopher Nolan (2008)",
+        "image": "assets/posters/dark-knight.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0468569/"
+      },
+      {
+        "title": "The Dark Knight Rises",
+        "subtitle": "Christopher Nolan (2012)",
+        "image": "assets/posters/dark-knight-rises.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt1345836/"
+      },
+      {
+        "title": "Following",
+        "subtitle": "Christopher Nolan (1998)",
+        "image": "assets/posters/following.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0154506/"
+      },
+      {
+        "title": "The Prestige",
+        "subtitle": "Christopher Nolan (2006)",
+        "image": "assets/posters/prestige.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0482571/"
+      },
+      {
+        "title": "Ponette",
+        "subtitle": "Jacques Doillon (1996)",
+        "image": "assets/posters/ponette.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0117498/"
+      },
+      {
+        "title": "Jojo Rabbit",
+        "subtitle": "Taika Waititi (2019)",
+        "image": "assets/posters/jojo-rabbit.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt2584384/"
+      },
+      {
+        "title": "The Pianist",
+        "subtitle": "Roman Polanski (2002)",
+        "image": "assets/posters/pianist.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0253474/"
+      },
+      {
+        "title": "Detachment",
+        "subtitle": "Tony Kaye (2011)",
+        "image": "assets/posters/detachment.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt1683526/"
+      },
+      {
+        "title": "Atonement",
+        "subtitle": "Joe Wright (2007)",
+        "image": "assets/posters/atonement.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0783233/"
+      },
+      {
+        "title": "Eyes Wide Shut",
+        "subtitle": "Stanley Kubrick (1999)",
+        "image": "assets/posters/eyes-wide-shut.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0120663/"
+      },
+      {
+        "title": "12 Angry Men",
+        "subtitle": "Sidney Lumet (1957)",
+        "image": "assets/posters/12-angry-men.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0050083/"
+      },
+      {
+        "title": "The Godfather",
+        "subtitle": "Francis Ford Coppola (1972)",
+        "image": "assets/posters/godfather.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0068646/"
+      },
+      {
+        "title": "The Shawshank Redemption",
+        "subtitle": "Frank Darabont (1994)",
+        "image": "assets/posters/shawshank-redemption.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0111161/"
+      },
+      {
+        "title": "Paris, Texas",
+        "subtitle": "Wim Wenders (1984)",
+        "image": "assets/posters/paris-texas.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0087884/"
+      },
+      {
+        "title": "The Secret Life of Walter Mitty",
+        "subtitle": "Ben Stiller (2013)",
+        "image": "assets/posters/walter-mitty.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0359950/"
+      },
+      {
+        "title": "Into the Wild",
+        "subtitle": "Sean Penn (2007)",
+        "image": "assets/posters/into-the-wild.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0758758/"
+      },
+      {
+        "title": "Stalker",
+        "subtitle": "Andrei Tarkovsky (1979)",
+        "image": "assets/posters/stalker.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0079944/"
+      },
+      {
+        "title": "The Sacrifice",
+        "subtitle": "Andrei Tarkovsky (1986)",
+        "image": "assets/posters/sacrifice.jpg",
+        "thought": "",
+        "link": "https://www.imdb.com/title/tt0091670/"
       }
     ]
   },
