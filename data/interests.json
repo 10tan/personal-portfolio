@@ -1,8 +1,8 @@
 [
   {
     "id": "movies",
-    "shortLabel": "Movies",
-    "title": "Movies & Cinema",
+    "shortLabel": "Film",
+    "title": "Film",
     "text": "Films that have stayed with me.",
     "entries": [
       {
