@@ -1,0 +1,52 @@
+[
+  {
+    "repo": "cherenkovlens",
+    "title": "CherenkovLens",
+    "description": "End-to-end Python simulation, topological image cleaning, Hillas parameter extraction, and machine learning classification pipeline for Imaging Atmospheric Cherenkov Telescopes (IACTs), modeled on the MACE gamma-ray observatory in Hanle, Ladakh.",
+    "tags": ["Python", "Astrophysics", "Machine Learning", "Hillas Parameters", "Scikit-Learn", "MACE Telescope"],
+    "liveUrl": "https://cherenkovlens.vercel.app",
+    "extraLinks": [],
+    "featured": true,
+    "hidden": false
+  },
+  {
+    "repo": "reliability-lab",
+    "title": "Reliability-Lab",
+    "description": "Enterprise-grade research platform for stochastic structural reliability engineering, rare-event probability estimation (Pf ∈ [10⁻⁹, 10⁻²]), multivariate copula dependence modeling, surrogate models, system reliability block diagram analysis, and automated numerical provenance reporting.",
+    "tags": ["Python", "FastAPI", "React", "Vite", "Structural Reliability", "Monte Carlo", "Copula Modeling"],
+    "liveUrl": "https://reliability-lab-zeta.vercel.app/",
+    "extraLinks": [],
+    "featured": true,
+    "hidden": false
+  },
+  {
+    "repo": "firetwin",
+    "title": "firetwin",
+    "description": "Coupled Multiphysics Engineering Simulator uniting Incompressible Boussinesq Navier-Stokes CFD, Large Eddy Simulation (LES), P1 Radiation Transport, Fourier Neural Operator (FNO) Surrogates, Eurocode 3 Structural Degradation, and Helbing Social Force Evacuation.",
+    "tags": ["Python", "FastAPI", "React", "TypeScript", "Multiphysics", "CFD", "Eurocode 3", "FNO"],
+    "liveUrl": "https://firetwin.vercel.app",
+    "extraLinks": [],
+    "featured": true,
+    "hidden": false
+  },
+  {
+    "repo": "neural-pde-bench",
+    "title": "Neural PDE Bench",
+    "description": "Scientific machine learning platform integrating Physics-Informed Neural Networks (PINNs), Operator Learning (FNO, DeepONet, GNO), Bayesian Uncertainty Quantification (HMC & VI), and Score-Based Diffusion Generative Models for forward and inverse partial differential equations.",
+    "tags": ["Python", "PyTorch", "Physics-Informed ML", "PINNs", "Neural Operators", "FastAPI", "React", "TypeScript"],
+    "liveUrl": "https://neural-pde-bench.vercel.app",
+    "extraLinks": [],
+    "featured": true,
+    "hidden": false
+  },
+  {
+    "repo": "nonlinear-fea-studio",
+    "title": "Nonlinear FEA Studio",
+    "description": "Advanced computational structural mechanics platform covering geometrically & materially nonlinear continuum regimes, multiscale RVE homogenization, adjoint topology optimization, reduced-order modeling (ROM), and probabilistic fatigue life assessment with 3D WebGL visualization.",
+    "tags": ["Python", "SciPy", "Three.js", "WebGL", "Nonlinear FEA", "Topology Optimization", "React"],
+    "liveUrl": "https://nonlinear-fea-studio.vercel.app",
+    "extraLinks": [],
+    "featured": true,
+    "hidden": false
+  }
+]

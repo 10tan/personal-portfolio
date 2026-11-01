@@ -1,0 +1,129 @@
+[
+  {
+    "id": "movies",
+    "shortLabel": "Movies",
+    "title": "Movies & Cinema",
+    "text": "Films that left a deep mark on me — reflecting on themes of theoretical physics, cosmic exploration, time, and human tenacity.",
+    "entries": [
+      {
+        "title": "Interstellar",
+        "subtitle": "Christopher Nolan (2014)",
+        "image": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=400&auto=format&fit=crop&q=80",
+        "thought": "The visualization of gravitational time dilation near Gargantua and Kip Thorne's real general relativity calculations made physics feel profoundly emotional. The docking sequence scored by Hans Zimmer's pipe organ remains an unmatched pinnacle of tension and human grit.",
+        "link": "https://www.imdb.com/title/tt0816692/"
+      },
+      {
+        "title": "Oppenheimer",
+        "subtitle": "Christopher Nolan (2023)",
+        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&auto=format&fit=crop&q=80",
+        "thought": "A visceral portrait of theoretical physics, quantum uncertainty, and the catastrophic ethical weight of scientific breakthrough. The sound design during the Trinity test silence gave me literal chills in the theater.",
+        "link": "https://www.imdb.com/title/tt15398776/"
+      },
+      {
+        "title": "Blade Runner 2049",
+        "subtitle": "Denis Villeneuve (2017)",
+        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=400&auto=format&fit=crop&q=80",
+        "thought": "Roger Deakins' cinematography and the desolate brutalist architecture created an unforgettable atmosphere. A quiet, contemplative study on consciousness, artificial intelligence, and what makes human emotion authentic.",
+        "link": "https://www.imdb.com/title/tt1856101/"
+      },
+      {
+        "title": "Arrival",
+        "subtitle": "Denis Villeneuve (2016)",
+        "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&auto=format&fit=crop&q=80",
+        "thought": "Fascinating exploration of the Sapir-Whorf hypothesis and nonlinear time perception. The idea that learning a language can rewire your temporal consciousness was deeply thought-provoking.",
+        "link": "https://www.imdb.com/title/tt2543164/"
+      }
+    ]
+  },
+  {
+    "id": "books",
+    "shortLabel": "Books",
+    "title": "Books & Literature",
+    "text": "Books across physics, computational mechanics, mathematics, and hard science fiction that fundamentally reshaped how I think.",
+    "entries": [
+      {
+        "title": "The Feynman Lectures on Physics",
+        "subtitle": "Richard P. Feynman",
+        "image": "https://images.unsplash.com/photo-1532012164546-f432f2e3777f?w=400&auto=format&fit=crop&q=80",
+        "thought": "Feynman's intuition for classical mechanics and electromagnetism taught me to visualize physical principles before touching a differential equation. It is the purest benchmark for conceptual clarity in engineering.",
+        "link": "https://www.feynmanlectures.caltech.edu/"
+      },
+      {
+        "title": "Finite Element Procedures",
+        "subtitle": "Klaus-Jürgen Bathe",
+        "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=400&auto=format&fit=crop&q=80",
+        "thought": "The definitive foundation for nonlinear solid mechanics and continuum element formulations. Walking through continuum kinematics and arc-length solver algorithms gave me the exact rigor to write numerical solvers.",
+        "link": ""
+      },
+      {
+        "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+        "subtitle": "Douglas Hofstadter",
+        "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400&auto=format&fit=crop&q=80",
+        "thought": "A masterpiece connecting formal logic, recursive self-reference, Bach's canons, and cognitive emergence. It bridged formal mathematics with aesthetics in a way that stayed with me forever.",
+        "link": ""
+      },
+      {
+        "title": "The Three-Body Problem Trilogy",
+        "subtitle": "Liu Cixin",
+        "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=400&auto=format&fit=crop&q=80",
+        "thought": "The cosmic sociology and dimensional collapse concepts made this the most mind-bending hard science fiction I have ever read. The Dark Forest axiom gave me a genuine sense of cosmic awe and dread.",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "id": "music",
+    "shortLabel": "Music",
+    "title": "Music & Soundtracks",
+    "text": "Albums and film scores that power late-night coding sessions and mathematical derivations.",
+    "entries": [
+      {
+        "title": "Interstellar Original Motion Picture Soundtrack",
+        "subtitle": "Hans Zimmer (2014)",
+        "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&auto=format&fit=crop&q=80",
+        "thought": "Recorded on the 1926 Harrison & Harrison organ at Temple Church. The massive chord progressions in 'Cornfield Chase' and 'No Time for Caution' provide unmatched focus and emotional momentum.",
+        "link": ""
+      },
+      {
+        "title": "In a Time Lapse",
+        "subtitle": "Ludovico Einaudi (2013)",
+        "image": "https://images.unsplash.com/photo-1520523839898-50712825e617?w=400&auto=format&fit=crop&q=80",
+        "thought": "Minimalist piano interwoven with soaring string arrangements. 'Experience' is my ultimate focus anthem when debugging complex finite element routines.",
+        "link": ""
+      },
+      {
+        "title": "Awake",
+        "subtitle": "Tycho (2014)",
+        "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&auto=format&fit=crop&q=80",
+        "thought": "Warm analog synths, crisp live drums, and sun-drenched melodies. The ideal rhythm for deep software architecture work without vocal distraction.",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "id": "photography",
+    "shortLabel": "Photography",
+    "title": "Himalayan Landscapes & Astrophotography",
+    "text": "Capturing mountain landscapes, river valleys around Kamand, and long-exposure astrophotography under dark Himalayan night skies.",
+    "items": [
+      "Himalayan Ridge & Alpine Landscape Photography",
+      "Kamand & Uhl River Valley Topographic Studies",
+      "Long-Exposure Astrophotography & Milky Way Nightscapes",
+      "Golden Hour Mountain Light & Weather Inversions"
+    ],
+    "links": []
+  },
+  {
+    "id": "other",
+    "shortLabel": "Other Pursuits",
+    "title": "Alpine Trekking & System Engineering",
+    "text": "Extracurricular interests outside the laboratory, including alpine trekking across Himachal Pradesh, open-source scientific software design, and custom Linux workstations.",
+    "items": [
+      "Multi-Day Alpine Trekking & Pass Crossings in Himachal Pradesh",
+      "Open-Source Scientific Software Engineering & Tooling",
+      "Linux System Architecture, Shell Scripting & Dev Automation",
+      "Mechanical Hardware & Rapid 3D Prototyping"
+    ],
+    "links": []
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "name": "Tanmay Kumar",
+  "tagline": "Civil Engineering (3rd Year) · IIT Mandi",
+  "bio": "Civil Engineering undergraduate at IIT Mandi working at the intersection of computational structural mechanics, multiphysics engineering, stochastic reliability analysis, and scientific machine learning (PINNs, Operator Learning, and Bayesian UQ).",
+  "currently": "Building high-performance physics-informed neural solvers, nonlinear finite element digital twins, and structural hazard models.",
+  "githubUsername": "10tan",
+  "accentColor": "#2563eb",
+  "email": "kumartanmay109@gmail.com",
+  "emails": [
+    {
+      "label": "kumartanmay109@gmail.com",
+      "url": "mailto:kumartanmay109@gmail.com"
+    },
+    {
+      "label": "b24098@students.iitmandi.ac.in",
+      "url": "mailto:b24098@students.iitmandi.ac.in"
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/10tan"
+    },
+    {
+      "label": "IIT Mandi",
+      "url": "https://www.iitmandi.ac.in"
+    }
+  ]
+}

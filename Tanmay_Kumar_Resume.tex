@@ -1,0 +1,206 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Tanmay Kumar
+% Based on: Jake's Resume (Clean, ATS-Optimized, Highly Extensible)
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath,amssymb}
+\usepackage{xcolor}
+
+% Set margins (0.5 in for maximum space efficiency and ATS readability)
+\usepackage[margin=0.5in]{geometry}
+
+% Hyperlink styling (sleek deep blue for interactive URLs)
+\definecolor{accentblue}{RGB}{20, 65, 130}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accentblue,
+    filecolor=accentblue,      
+    urlcolor=accentblue,
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.0in}
+\addtolength{\evensidemargin}{-0.0in}
+\addtolength{\textwidth}{0.0in}
+\addtolength{\topmargin}{-0.2in}
+\addtolength{\textheight}{0.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting with clean rule
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1.5pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in, label={\raisebox{0.2ex}{\tiny$\bullet$}}]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%
+%-------------------------------------------
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Tanmay Kumar} \\ \vspace{2pt}
+    \small Indian Institute of Technology (IIT) Mandi $\cdot$ B.Tech in Civil Engineering (3rd Year) \\ \vspace{2pt}
+    \small 
+    \href{mailto:kumartanmay109@gmail.com}{\underline{kumartanmay109@gmail.com}} $|$ 
+    \href{mailto:b24098@students.iitmandi.ac.in}{\underline{b24098@students.iitmandi.ac.in}} $|$ 
+    \href{https://github.com/10tan}{\underline{github.com/10tan}} $|$ 
+    \href{https://10tan.github.io}{\underline{Portfolio}} $|$
+    \href{https://www.iitmandi.ac.in}{\underline{IIT Mandi}}
+\end{center}
+\vspace{-8pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology (IIT) Mandi}{Mandi, Himachal Pradesh, India}
+      {Bachelor of Technology in Civil Engineering (Current CGPA / Standing: 3rd Year)}{2022 -- 2026 (Expected)}
+      \resumeItemListStart
+        \resumeItem{\textbf{Focus Areas:} Computational Mechanics, Scientific Machine Learning (SciML), Stochastic Reliability Analysis, Finite Element Methods (FEM), Fluid-Structure Multiphysics, and Numerical Optimization.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-6pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages \& Core:}{ Python (NumPy, SciPy, PyTorch, Scikit-Learn), C/C++, TypeScript, JavaScript, SQL, Bash, \LaTeX} \\
+     \textbf{Scientific Computing:}{ Physics-Informed Neural Networks (PINNs, XPINNs), Fourier Neural Operators (FNO), DeepONet, Finite Element Analysis (FEA/FEM), Monte Carlo, Subset Simulation, FORM/SORM, Proper Orthogonal Decomposition (ROM)} \\
+     \textbf{Engineering Standards:}{ ISO 2394 (Structural Reliability), DNV-RP-C210 (Offshore Fatigue \& Fracture), Eurocode 3 (EN 1993-1-2 Structural Fire Design), ISO 13571 (Life Safety / Tenability)} \\
+     \textbf{Web \& Systems Engineering:}{ FastAPI, React 18, Vite, Three.js (WebGL 3D Rendering), Recharts, Docker, Git, CI/CD, KaTeX}
+    }}
+ \end{itemize}
+\vspace{-6pt}
+
+%-----------PROJECTS-----------
+\section{Featured Engineering \& Scientific Projects}
+    \resumeSubHeadingListStart
+
+      % Project 1: CherenkovLens
+      \resumeProjectHeading
+          {\textbf{CherenkovLens} $|$ \emph{Python, Scikit-Learn, SciPy, Astrophysics, Hillas Eigensolver, Vercel}}
+          {\href{https://cherenkovlens.vercel.app}{\underline{Live Demo}} $|$ \href{https://github.com/10tan/cherenkovlens}{\underline{GitHub}}}
+          \resumeItemListStart
+            \resumeItem{Engineered an end-to-end simulation, topological image cleaning, and machine learning pipeline for \textbf{Imaging Atmospheric Cherenkov Telescopes (IACTs)}, modeled on the 21m \textbf{MACE Observatory} in Hanle, Ladakh ($4{,}270\text{ m}$ a.s.l.).}
+            \resumeItem{Simulated relativistic Extensive Air Shower (EAS) microphysics via the \textbf{Frank-Tamm equation} and barometric refractive index profiles across a $34 \times 34$ camera pixel array ($1{,}156$ PMT channels), separating electromagnetic cascades from hadronic proton backgrounds.}
+            \resumeItem{Implemented dual-threshold topological tail-cuts cleaning and an analytical \textbf{Hillas eigensolver} computing statistical image moments (Length, Width, Dist, Alpha, Azwidth, Size, Concentration).}
+            \resumeItem{Trained Random Forest and SVM classifiers achieving high gamma/hadron discrimination, deployed via an interactive client-side web application featuring real-time parameter visualization and KaTeX mathematical formulations.}
+          \resumeItemListEnd
+
+      % Project 2: Reliability-Lab
+      \resumeProjectHeading
+          {\textbf{Reliability-Lab} $|$ \emph{Python, FastAPI, React, Vite, Stochastic Reliability, Copulas, ISO 2394, DNV-RP-C210}}
+          {\href{https://reliability-lab-zeta.vercel.app/}{\underline{Live Demo}} $|$ \href{https://github.com/10tan/reliability-lab}{\underline{GitHub}}}
+          \resumeItemListStart
+            \resumeItem{Developed an enterprise-grade structural reliability and uncertainty quantification platform compliant with \textbf{ISO 2394} and \textbf{DNV-RP-C210} probabilistic safety assessment standards.}
+            \resumeItem{Formulated First- and Second-Order Reliability Methods (\textbf{FORM/SORM}) with Hasofer-Lind optimization and Rackwitz-Fiessler normal-tail transformations for nonlinear limit state functions.}
+            \resumeItem{Deployed advanced rare-event simulation algorithms (\textbf{Subset Simulation, Importance Sampling, Directional Simulation}) estimating extreme failure probabilities ($P_f \in [10^{-9}, 10^{-2}]$) with low coefficient of variation.}
+            \resumeItem{Modeled heavy-tailed multivariate dependencies using Archimedean copulas (Clayton, Gumbel, Frank) and Gaussian/Student-$t$ copulas; executed \textbf{Sobol variance-based global sensitivity analysis} and minimal cut-set system reliability.}
+            \resumeItem{Architected a responsive full-stack platform (FastAPI + React/Vite) with real-time SVG limit-state contour plotting and automated numerical provenance verification.}
+          \resumeItemListEnd
+
+      % Project 3: firetwin
+      \resumeProjectHeading
+          {\textbf{firetwin} $|$ \emph{Python 3.12, PyTorch, FastAPI, React 18, TypeScript, FNO, LES CFD, Eurocode 3}}
+          {\href{https://firetwin.vercel.app}{\underline{Live Demo}} $|$ \href{https://github.com/10tan/firetwin}{\underline{GitHub}}}
+          \resumeItemListStart
+            \resumeItem{Created a coupled multiphysics digital twin unifying Incompressible Boussinesq Navier-Stokes hydrodynamics, Smagorinsky-Lilly \textbf{Large Eddy Simulation (LES)}, and P1 radiation transport for compartment fire hazards.}
+            \resumeItem{Trained a 2D \textbf{Fourier Neural Operator (FNO)} surrogate enabling continuous velocity and temperature field inference in \textbf{$<5\text{ ms}$} ($>100\times$ speedup over numerical CFD solvers) for real-time safety exploration.}
+            \resumeItem{Coupled compartment gas temperatures to structural steel members via \textbf{Eurocode 3 (EN 1993-1-2)} lumped-capacitance formulations, evaluating thermal yield degradation $k_y(T)$ and elastic modulus reduction $k_E(T)$.}
+            \resumeItem{Integrated \textbf{Helbing Social Force} pedestrian evacuation dynamics with ISO 13571 Fractional Effective Dose (FED) toxic incapacitation models to quantify Available Safe Egress Time (ASET) vs. Required Safe Egress Time (RSET).}
+            \resumeItem{Engineered an automated serverless engine producing publication-grade 3-page compliance PDF reports complete with 6 embedded telemetry charts and Eurocode fire resistance matrices.}
+          \resumeItemListEnd
+
+      % Project 4: Neural PDE Bench
+      \resumeProjectHeading
+          {\textbf{Neural PDE Bench} $|$ \emph{PyTorch, Python, FastAPI, PINNs, FNO, DeepONet, Bayesian UQ, Diffusion Models}}
+          {\href{https://neural-pde-bench.vercel.app}{\underline{Live Demo}} $|$ \href{https://github.com/10tan/neural-pde-bench}{\underline{GitHub}}}
+          \resumeItemListStart
+            \resumeItem{Built a comprehensive scientific machine learning platform integrating \textbf{Physics-Informed Neural Networks (PINNs)} and operator learning for forward and inverse partial differential equations.}
+            \resumeItem{Implemented Residual-Based Adaptive Refinement (\textbf{RAR}) and multi-subdomain \textbf{XPINN decomposition} with interface flux-matching penalties to resolve stiff gradient fronts and multiscale dynamics.}
+            \resumeItem{Benchmarked operator learning architectures including \textbf{Fourier Neural Operators (FNO-1D/2D)}, \textbf{DeepONet} (branch-trunk networks), and Geometry Graph Neural Operators (GNO) across continuum mechanics benchmarks.}
+            \resumeItem{Conducted Bayesian Uncertainty Quantification via \textbf{Hamiltonian Monte Carlo (HMC)} and Variational MC-Dropout; deployed score-based diffusion generative models for inverse spatial parameter reconstruction $E(x)$.}
+            \resumeItem{Constructed an interactive React/TypeScript analytical suite with real-time Recharts dashboards and a containerized FastAPI backend with automated pytest CI pipelines.}
+          \resumeItemListEnd
+
+      % Project 5: Nonlinear FEA Studio
+      \resumeProjectHeading
+          {\textbf{Nonlinear FEA Studio} $|$ \emph{Python, SciPy, Three.js, WebGL, React, Arc-Length Continuation, ROM, DNV Standards}}
+          {\href{https://nonlinear-fea-studio.vercel.app}{\underline{Live Demo}} $|$ \href{https://github.com/10tan/nonlinear-fea-studio}{\underline{GitHub}}}
+          \resumeItemListStart
+            \resumeItem{Engineered an advanced computational structural mechanics platform supporting geometrically and materially nonlinear continuum regimes, multiscale homogenization, and structural optimization.}
+            \resumeItem{Formulated Total and Updated Lagrangian kinematics (Green-Lagrange strains, 2nd Piola-Kirchhoff stresses) coupled with \textbf{Crisfield/Riks cylindrical arc-length continuation} to trace snap-through and snap-back buckling paths.}
+            \resumeItem{Derived return-mapping $J_2$ plasticity with isotropic/kinematic hardening and \textbf{Lemaitre continuum damage mechanics} ($\dot{D}$), accompanied by Zienkiewicz-Zhu adaptive mesh refinement (AMR).}
+            \resumeItem{Integrated \textbf{SIMP topology optimization} with MMA optimizer and manufacturing overhang constraints; computed asymptotic microstructural homogenization ($FE^2$) with Voigt/Reuss/Hashin-Shtrikman bounds.}
+            \resumeItem{Developed snapshot \textbf{POD-Galerkin reduced-order models (ROM)} for real-time load sliders and built an interactive Three.js 3D WebGL CAD interface visualizing stress tensors, plastic strain, and ASTM E1049 rainflow fatigue life.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+\vspace{-6pt}
+
+%-----------RELEVANT COURSEWORK & HONORS-----------
+\section{Relevant Coursework \& Academic Highlights}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Computational \& Mathematical Foundations:}{ Numerical Methods in Engineering, Finite Element Analysis, Probability \& Stochastic Processes, Linear Algebra, Multivariable Calculus, Optimization Techniques, Differential Equations} \\
+     \textbf{Structural \& Physical Mechanics:}{ Structural Analysis, Solid Mechanics, Continuum Mechanics, Fluid Mechanics, Structural Dynamics, Mechanics of Materials, Probabilistic Risk Assessment} \\
+     \textbf{Research Interests:}{ Scientific Machine Learning (Physics-Informed Deep Learning \& Operator Learning), Structural Health Monitoring, Computational Fracture Mechanics, Multi-Hazard Digital Twins, and Offshore Engineering Reliability}
+    }}
+ \end{itemize}
+
+\end{document}
